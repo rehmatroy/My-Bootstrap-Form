@@ -1,0 +1,87 @@
+/*style of 1st div*/
+.txt{
+	height: 85vh;
+}
+.clr{
+	color: red;
+}
+/*style of hr is here*/
+.txt hr{
+	width: 1.5rem;
+	margin-left:0;
+	border:0.1rem solid gray;
+}
+/*style of p is here*/
+.txt p{
+	font-size: 15px;
+	line-height: 1.5rem;
+	word-spacing: 1px;
+}
+/*style of form is here*/
+.fm{
+	height: 420px;
+}
+.fom{
+	height: 370px;
+	box-shadow: 0px 0px 8px black;
+}
+hr{
+	width: 30px;
+	border:1px solid red;
+}
+/*style of form of 1st div of inputs is here*/
+.one{
+	width: 53%;
+}
+ .one input{
+ 	background-color: black;
+	border: 2px solid red;
+	border-left: 0px;
+	border-radius: 50px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+.one input:focus{
+	background-color: black;
+	box-shadow: none;
+	border: 2px solid red;
+	border-left: 0px;
+}
+/*style of form of 2nd div of input is here*/
+.two{
+	width: 55%;
+}
+.two input{
+	background-color: black;	
+	border: 2px solid red;
+	border-right: 0px;
+	border-radius: 50px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.two input:focus{
+	background-color: black;
+	box-shadow: none;
+	border: 2px solid red;
+	border-right: 0px;
+}
+/*style of placeholder is here*/
+input::placeholder{
+	color: red !important;
+}
+/*style of button is here*/
+.my-btn{
+	width: 140px;
+	height: 35px;
+	background-color: black;
+	color: red;
+	border: 2px solid red;
+	border-radius: 50px;
+}
+.my-btn:hover{
+	background-color: red;
+	color: white;
+}
+.my-btn:focus{
+	outline: none;
+}
